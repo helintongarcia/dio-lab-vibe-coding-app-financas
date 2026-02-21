@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como parte do desafio da aula **Criando um APP de 
 
 **FinFamilyChat** é um aplicativo de controle financeiro familiar que funciona por meio de conversas em linguagem natural. Ele permite que membros da família registrem despesas, acompanhem metas, gerenciem contas e recebam recomendações — tudo em um ambiente colaborativo e acessível.
 
-#### 🔗 Link do resultado final com o Lovable: (https://chat-finances-for-all.lovable.app/login)
+#### 🔗 Link do resultado final com o Lovable (MOC): (https://chat-finances-for-all.lovable.app/login)
 
 ---
 
