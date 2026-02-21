@@ -285,6 +285,22 @@ Resumo final
 Este PRD complementar adiciona gestão de contas, autenticação social, multiusuário colaborativo, edição de lançamentos, filtros mensais em relatórios e recorrência de lançamentos, com critérios de aceitação, impactos técnicos e prioridades para implementação no MVP. Pode ser convertido em histórias de usuário com critérios de aceitação detalhados e tarefas técnicas por sprint.
 
 ```
+---
+## 💖 Interações com o Lovable
+
+> Crie um app de finanças pessoais com base no PRD (Product Requirements Documents) abaixo:
+>
+> Complemente esse PRD com as Funcionalidades Adicionais de Gestão de Contas, Autenticação, Multiusuário, Edição, Relatórios Mensais, Recorrência.
+> 
+> P: Quer que eu ative o Lovable Cloud agora para começarmos pela autenticação e banco de dados?
+> R: Não, quero só o frontend por enquanto
+>
+> P: Por qual bloco de funcionalidades quer que eu comece?
+> R: Tudo na ordem do PRD
+>
+> pode finalizar com todas as implementações?
+>
+Posteriormente solicitei apenas correções de layout.
 
 ## 🎯 Desafio
 
