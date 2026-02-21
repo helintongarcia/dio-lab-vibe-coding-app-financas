@@ -302,6 +302,31 @@ Este PRD complementar adiciona gestão de contas, autenticação social, multius
 >
 Posteriormente solicitei apenas correções de layout.
 
+#### 🔗 Link do resultado final com o Lovable: https://chat-finances-for-all.lovable.app
+
+---
+## 📱 Telas do App
+
+
+### 📱 Telas das Funções principais
+
+<img width="300" height="540" alt="App Image 00" src="https://github.com/user-attachments/assets/a8a158f5-02b4-430f-a091-bfe0a5f9d912" />
+<img width="300" height="540" alt="App Image 01" src="https://github.com/user-attachments/assets/35562cd9-c16c-4e42-bdc4-222d4263033b" />
+<img width="300" height="540" alt="App Image 02" src="https://github.com/user-attachments/assets/073a39f3-8005-473c-8844-54b2a1ac1092" />
+<img width="300" height="540" alt="App Image 03" src="https://github.com/user-attachments/assets/06b8a573-d197-464d-9ea4-f69be61496aa" />
+<img width="300" height="540" alt="App Image 04" src="https://github.com/user-attachments/assets/b271caf0-f9f6-4220-9d21-0dcfa583abf2" />
+<img width="300" height="540" alt="App Image 05" src="https://github.com/user-attachments/assets/7f789471-674a-4367-acf0-2194c8704898" />
+<img width="300" height="540" alt="App Image 06" src="https://github.com/user-attachments/assets/90aa7c0c-0852-4d39-ae44-112ff2d891d5" />
+<img width="300" height="540" alt="App Image 07" src="https://github.com/user-attachments/assets/74affa34-cf65-41cf-8259-0d441c69950f" />
+<img width="300" height="540" alt="App Image 08" src="https://github.com/user-attachments/assets/017b8258-7126-4821-b125-2abfbcc22955" />
+
+### 📱 Telas das Funções de adição e edição
+<img width="300" height="540" alt="App Image 02-1" src="https://github.com/user-attachments/assets/fc4152e9-f113-4b0d-99c0-0b44dee62acd" />
+<img width="300" height="540" alt="App Image 03-1" src="https://github.com/user-attachments/assets/f1d78256-c282-42de-a220-67c444c6b72a" />
+<img width="300" height="540" alt="App Image 05-1" src="https://github.com/user-attachments/assets/2d3f6a1c-1391-40bc-ae54-d62498c38db1" />
+<img width="300" height="540" alt="App Image 06-1" src="https://github.com/user-attachments/assets/e1de2535-e38b-4449-bc06-1640573c89a7" />
+
+
 ## 🎯 Desafio
 
 Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
