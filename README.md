@@ -1,3 +1,5 @@
+<img width="1024" height="300" alt="FinFamilyChat Banner" src="https://github.com/user-attachments/assets/7b2fd0aa-4c70-4af2-88c7-4d37aa51c503" />
+
 # 💸 FinFamilyChat - App de Organização de Finanças Pessoais com Vibe Coding
 
 Este projeto foi desenvolvido como parte do desafio da aula **Criando um APP de Organização de Finanças Pessoais com Vibe Coding** do bootcamp **CAIXA - Inteligência Artificial na Prática**, com o objetivo de criar uma MVP (Produto Mínimo Viável) de um **App de Organização de Finanças Pessoais** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural com **agentes de IA** aplicando o **jeito Vibe de programar com IA**.
