@@ -1,6 +1,127 @@
 # 💸 FinFamilyChat - App de Organização de Finanças Pessoais com Vibe Coding
 
-**Solução com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. MVP (Produto Mínimo Viável) de um **App de Organização de Finanças Pessoais**, que permite **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados** aplicando o **jeito Vibe de programar com IA**.
+Este projeto foi desenvolvido como parte do desafio da aula **Criando um APP de Organização de Finanças Pessoais com Vibe Coding** do bootcamp **CAIXA - Inteligência Artificial na Prática**, com o objetivo de criar uma MVP (Produto Mínimo Viável) de um **App de Organização de Finanças Pessoais** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. Este permite **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** são capazes de criar **planos de economia personalizados e automatizados** aplicando o **jeito Vibe de programar com IA**.
+
+## 💬 Sobre o FinFamilyChat
+
+**FinFamilyChat** é um aplicativo de controle financeiro familiar que funciona por meio de conversas em linguagem natural. Ele permite que membros da família registrem despesas, acompanhem metas, gerenciem contas e recebam recomendações — tudo em um ambiente colaborativo e acessível.
+
+---
+
+## 🚀 Visão Geral
+
+- **Estilo WhatsApp**: registre gastos como se estivesse conversando.
+- **Ambiente compartilhado**: vários membros da família podem colaborar.
+- **Design Universal**: acessível para todos os perfis de usuário.
+- **Recorrência e parcelamento**: controle inteligente de despesas fixas e parceladas.
+- **Relatórios simples**: visão clara e personalizada do mês.
+
+---
+
+## 👥 Público-Alvo
+
+- Iniciantes em organização financeira.
+- Famílias que desejam acompanhar finanças em conjunto.
+- Usuários com diferentes níveis de habilidade digital.
+
+---
+
+## ✅ Diferenciais
+
+- Interface conversacional estilo WhatsApp.  
+- Colaboração familiar em tempo real.  
+- Design Universal para máxima inclusão.  
+- Recorrência e parcelamento inteligente.  
+- Relatórios em linguagem simples e visual amigável.
+
+---
+
+## 🔑 Funcionalidades
+
+### Conversação Inteligente
+- Registro de gastos por texto ou voz.
+- Classificação automática por categoria.
+- Dicas do Agente Financeiro com base nos hábitos.
+
+### Login Seguro
+- Autenticação via Google, Apple ou e-mail.
+- Opção de convidado para testes.
+- Recuperação de senha e criptografia de dados.
+
+### Gestão de Contas
+- Seleção de conta após cada lançamento.
+- Contas padrão: Carteira, Nubank, Bradesco, Itaú, Caixa.
+- Adição, edição e remoção de contas.
+
+### Multiusuário
+- Convidar membros com papéis: Administrador, Colaborador, Visualizador.
+- Lançamentos identificados por autor.
+- Log de atividades por membro.
+
+### Metas e Relatórios
+- Criação de metas por conversa.
+- Progresso visual e textual.
+- Relatórios mensais com filtro por período.
+- Comparação entre meses e resumo em linguagem simples.
+
+### Recorrências e Parcelamentos
+- Lançamentos com recorrência: mensal, anual, parcelado.
+- Gerenciamento de recorrências: editar, pausar, cancelar.
+- Visualização de próximas parcelas e status.
+
+### Edição de Lançamentos
+- Alteração de valor, conta, descrição, data e categoria.
+- Histórico de alterações com opção de desfazer.
+
+### Acessibilidade e Personalização
+- Tema claro/escuro/sistema.
+- Tamanho de fonte ajustável.
+- Alto contraste e leitura por voz.
+
+---
+
+## 📊 Métricas de Sucesso
+
+- Taxa de registro via chat.
+- Retenção de usuários em 30 dias.
+- Precisão da classificação automática.
+- Satisfação de acessibilidade ≥ 90%.
+- Adoção de tema escuro/claro.
+- Engajamento em ambientes compartilhados.
+
+---
+
+## 🧩 Telas do MVP
+
+- Login com autenticação social  
+- Chat com Agente Financeiro  
+- Transações com filtros e edição  
+- Metas com progresso e categorias  
+- Relatórios mensais e comparativos  
+- Contas com saldo e tipo  
+- Recorrências com status e próximas parcelas  
+- Membros com papéis e log de atividades  
+- Ajustes com acessibilidade e exportação de dados
+
+---
+
+## 🛠️ Tecnologias e Equipe
+
+- App mobile (iOS/Android) com suporte a voz e tema.
+- Backend com NLP, classificação e segurança.
+- Equipe mínima: PM, designer UX, devs mobile/backend, especialista em NLP, QA com foco em acessibilidade.
+
+---
+
+## 📎 Licença
+
+Este projeto foi gerado com apoio da plataforma **Lovable** e está em fase de MVP.  
+Todos os dados são protegidos com criptografia e seguem as diretrizes da LGPD.
+
+---
+
+**FinFamilyChat** — controle financeiro com afeto, colaboração e simplicidade.
+
 
 ---
 ## #️⃣ Prompt refinado no Copilot Web (PRD - Product Requirements Document)
