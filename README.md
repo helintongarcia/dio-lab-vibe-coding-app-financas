@@ -1,12 +1,290 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 FinFamilyChat - App de Organização de Finanças Pessoais com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+**Solução com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. MVP (Produto Mínimo Viável) de um **App de Organização de Finanças Pessoais**, que permite **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados** aplicando o **jeito Vibe de programar com IA**.
 
-## ✨ O que é Vibe Coding
+---
+## #️⃣ Prompt refinado no Copilot Web (PRD - Product Requirements Document)
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+### #️⃣ Parte 1
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+```
+PRD - Aplicativo de Organização de Finanças por Conversa (Versão para MVP)
+
+Visão resumida
+Criar um aplicativo conversacional de finanças pessoais que permita registrar despesas, acompanhar metas e receber recomendações, oferecendo uma experiência inclusiva e personalizável para o máximo de usuários possível.
+
+Problema
+Usuários desistem de controlar gastos por fricção de formulários e falta de adaptação a diferentes capacidades. A solução reduz entrada manual com conversas naturais, classificação automática e recomendações proativas, e aplica Design Universal para ampliar a usabilidade.
+
+Público alvo
+Iniciantes em organização financeira, incluindo pessoas com diferentes habilidades sensoriais, motoras e cognitivas, idosos e pessoas com baixa literacia digital.
+
+Objetivos do produto
+- Reduzir esforço de registro em pelo menos 70% vs apps tradicionais.
+- Aumentar retenção em 30 dias.
+- Garantir experiência acessível e consistente para diversos perfis de usuário.
+
+Funcionalidades Principais (priorizadas)
+1. Registro por chat: entrada em linguagem natural por texto e voz; confirmação clara e correção rápida.
+2. Classificação automática: categorias sugeridas com edição fácil e feedback para re‑treino.
+3. Metas e acompanhamento: criar metas por conversa; notificações e resumo semanal.
+4. Agente Financeiro: dicas proativas em texto e áudio; alertas configuráveis.
+5. Relatórios simples: resumo mensal em linguagem acessível; gráficos com descrições textuais.
+6. Privacidade e segurança: criptografia, controle de exportação e exclusão de dados.
+7. Configurações de Acessibilidade: tamanho de fonte ajustável, modo alto contraste, leitura por voz, navegação por teclado/gestos.
+8. Modo Escuro e Modo Claro: tema ajustável pelo usuário; opção de seguir tema do sistema.
+
+Requisito não funcional obrigatório
+Design Universal e suporte a dark/light mode desde o onboarding.
+
+Critérios de sucesso e métricas
+- Taxa de registro via chat: % de transações inseridas por conversa.
+- Retenção 30 dias: usuários ativos após 30 dias.
+- Precisão de classificação: % de transações categorizadas sem correção.
+- Satisfação de acessibilidade: ≥ 90% entre testadores com necessidades diversas.
+- Adoção do tema: % de usuários que escolhem dark vs light e impacto na satisfação.
+
+Plano de MVP
+
+Escopo do MVP
+- Fluxo conversacional básico (texto e voz).
+- Classificador com 10 categorias iniciais: Alimentação; Transporte; Moradia; Lazer; Saúde; Educação; Assinaturas; Compras; Investimentos; Outros.
+- Tela de metas simples (criar, acompanhar progresso).
+- Relatório mensal resumido em linguagem natural.
+- Agente Financeiro com 3 tipos de dicas (economia imediata, ajuste de meta, alerta de gasto recorrente).
+- Onboarding conversacional com opções de acessibilidade e escolha de tema (dark/light).
+
+Principais telas do MVP
+- Tela Conversa (chat principal): entrada texto/voz; histórico; confirmação rápida; alternância de tema.
+- Tela Transações: lista filtrável; edição rápida; botão para corrigir categoria.
+- Tela Metas: criar meta por conversa; progresso visual e feedback sonoro.
+- Tela Relatórios: resumo textual; gráfico de tendência; descrições alternativas.
+- Tela Perfil Acessibilidade: ajustes de contraste, tipografia, leitura por voz e seleção de tema.
+- Tela Perfil/Segurança: configurações de privacidade e backup.
+
+Recursos necessários
+- Frontend: app mobile (iOS/Android) com componente de chat, gravação de voz e suporte a temas.
+- Backend: API para processamento de linguagem natural, classificação e armazenamento seguro.
+- ML/NLP: modelo de NLU para extrair valor, categoria, data e contexto; pipeline de classificação com feedback humano para re‑treino.
+- Design: UX focado em conversas, microcopy educativo, tokens de design para dark/light e fluxos de correção rápida.
+- Legal/Segurança: política de privacidade, criptografia, conformidade LGPD.
+- Equipe mínima: 1 PM, 1 designer UX com experiência em acessibilidade, 2 devs mobile, 1 backend, 1 ML/NLP, 1 QA com foco em usabilidade inclusiva.
+
+Validação Inicial (esboço)
+
+Hipóteses a testar
+- H1: Usuários iniciantes preferem registrar despesas por conversa a usar formulários.
+- H2: Classificação automática reduz tempo de organização em comparação com entrada manual.
+- H3: Dicas do Agente Financeiro aumentam a probabilidade de ajuste de comportamento financeiro.
+- H4: Aplicação de Design Universal e opções de tema permitem que usuários com diferentes necessidades usem o app com eficiência similar.
+
+Experimentos rápidos
+1. Protótipo conversacional (Figma ou protótipo interativo) com 15–20 usuários diversos; medir facilidade de uso e intenção de continuar.
+2. Wizard of Oz: simular o Agente Financeiro com moderador humano para avaliar relevância das dicas.
+3. A/B test: onboarding conversacional com opções de acessibilidade e escolha de tema vs onboarding padrão.
+4. Teste de classificação: coletar 200 transações reais via teste para medir precisão inicial.
+5. Teste de acessibilidade: checklist de Design Universal aplicado por especialistas e por usuários reais, incluindo cenários em dark e light.
+
+Critério de aceitação para avançar
+- ≥ 70% dos testadores preferem o fluxo conversacional e conseguem registrar 5 transações em menos de 5 minutos.
+- Classificação automática com ≥ 80% de precisão nas categorias mais comuns.
+- ≥ 90% de satisfação entre grupos com necessidades diversas em tarefas-chave.
+
+Design Universal — Diretrizes e Checklist
+
+Definição
+Design Universal: projetar produtos para que sejam utilizáveis pelo maior número possível de pessoas, independentemente de idade, habilidade ou contexto de uso.
+
+Princípios essenciais aplicados ao app
+- Uso Equitativo: entrada por voz e texto.
+- Flexibilidade no Uso: múltiplas formas de interação; opção de tema.
+- Simplicidade: microcopy curto, exemplos e fluxos guiados.
+- Tolerância ao Erro: confirmação antes de salvar; fácil correção.
+- Perceptibilidade: informação acessível por diferentes sentidos (texto, áudio, ícones).
+
+Checklist prático (prioridade inicial)
+- Incluir opções de acessibilidade no onboarding.
+- Garantir contraste mínimo e tipografia escalável.
+- Fornecer alternativas de entrada (voz, teclado, toque).
+- Implementar descrições textuais para gráficos.
+- Oferecer dark/light mode e opção de seguir tema do sistema.
+- Testar com usuários reais de diferentes perfis e documentar ajustes.
+- Validar contraste com ferramentas automatizadas e testes manuais.
+
+Dark / Light Mode — Recomendações rápidas
+- Garantir contraste adequado em ambos os temas.
+- Usar paleta semântica e tokens de design para cores e tipografia.
+- Fornecer ícones e imagens adaptáveis ou versões alternativas.
+- Persistir preferência do usuário e permitir seguir configuração do sistema.
+- Testar legibilidade, espaçamento e gráficos em ambos os temas.
+- Implementar transições suaves ao alternar tema.
+
+Riscos e Mitigações
+- Dependência de NLP: mitigar com fallback manual e correção rápida pelo usuário.
+- NLU com sotaques/variações: treinar com amostras diversas; oferecer confirmação passo a passo.
+- Interface visual pouco legível: modos de alto contraste, tipografia escalável e testes com baixa visão.
+- Privacidade e conformidade: projetar consentimento claro, criptografia e controles de exportação/exclusão.
+
+Próximos passos recomendados
+- Atualizar PRD oficial incluindo Design Universal e dark/light mode como requisitos não funcionais obrigatórios.
+- Construir protótipo conversacional com opções de acessibilidade e seleção de tema no onboarding.
+- Rodar testes Wizard of Oz e testes de usabilidade inclusiva em dark e light.
+- Implementar pipeline de classificação com logs para re‑treino e métricas de acessibilidade.
+- Definir critérios de aceitação por história de usuário incluindo verificações de contraste e usabilidade em ambos os temas.
+
+Anexos sugeridos (para desenvolvimento)
+- Exemplos de microcopy para onboarding e mensagens do Agente Financeiro.
+- Tokens de design (cores, tipografia, espaçamentos) para dark e light.
+- Checklist de testes de acessibilidade e roteiro de entrevistas para participantes.
+- Plano de coleta de dados para re‑treino do classificador (consentimento explícito).
+
+Fim do documento.
+
+```
+
+### #️⃣ Parte 2 (PRD Complementar - Funcionalidade Adicionais)
+
+```
+PRD Complementar - Funcionalidades Adicionais (Gestão de Contas, Autenticação, Multiusuário, Edição, Relatórios Mensais, Recorrência)
+
+Resumo
+Complemento ao PRD principal para incluir: gestão de contas com seleção após lançamento, tela de login (Google/Apple/email), ambiente multiusuário compartilhado, edição de lançamentos, filtro mensal em relatórios e recorrência/parcelamento de lançamentos. Inclui critérios de aceitação, impactos técnicos e prioridades para MVP.
+
+Novas Funcionalidades Detalhadas
+
+1. Gestão de Contas e Seleção após Lançamento
+- Fluxo: Após o usuário confirmar um lançamento no chat, o sistema envia mensagem solicitando qual conta será movimentada.
+- Contas padrão: Carteira; Bradesco; Nubank; Itaú; Caixa.
+- Gestão de contas: área para adicionar, editar nome, definir tipo (conta corrente, cartão, carteira), remover e marcar conta padrão.
+- Comportamento padrão: se não houver resposta, usar conta padrão; permitir alteração posterior no lançamento.
+- UX: botões sugeridos para seleção rápida; opção "Outra conta" e busca; confirmação após escolha.
+
+2. Tela de Login e Autenticação Social
+- Opções: Google Sign-In; Sign in with Apple; Email e senha.
+- Fluxo: tela de login com CTAs claros; opção "Continuar como convidado" com persistência limitada.
+- Recuperação: recuperação de senha por e‑mail.
+- Segurança: OAuth 2.0 para provedores; tokens JWT; refresh token.
+- Privacidade: explicitar permissões solicitadas no login.
+
+3. Multiusuário e Ambiente Compartilhado
+- Convite e permissões: convidar por e‑mail; papéis iniciais: Administrador; Colaborador; Visualizador.
+- Indicação no chat: cada lançamento exibe o nome do usuário que efetuou o lançamento (estilo chat).
+- Controle de atividades: log de auditoria com criação/edição/exclusão e autor.
+- Gerenciamento de membros: adicionar/remover, alterar papéis, aceitar convites.
+- Privacidade: opção de contas pessoais privadas; ambiente compartilhado mostra histórico e relatórios do grupo.
+
+4. Edição de Lançamentos
+- Campos editáveis: valor; conta; descrição; data; categoria; recorrência.
+- Fluxo: botão editar em lista de transações e no histórico do chat; modal com campos preenchidos; salvar gera AuditLog.
+- Validação: regras para evitar edições inválidas (ex.: data futura sem permissão).
+- Undo: permitir desfazer alteração por curto período (ex.: 30s); manter histórico de versões.
+
+5. Relatórios com Seleção por Período Mensal
+- Filtro por período: seletor mês/ano; presets: mês atual, últimos 3 meses, ano.
+- Comparação: opção de comparar meses lado a lado.
+- Exportação: exportar resumo em CSV (MVP opcional) com consentimento.
+- Visualização: gráficos e resumo textual adaptados a dark/light e acessibilidade.
+
+6. Recorrência de Lançamentos
+- Tipos: diária; semanal; mensal; anual; parcelamento (ex.: 10x).
+- Configuração no lançamento: opção "Repetir" com parâmetros (intervalo, número de repetições, data de término).
+- Parcelamento: criar parcelas automáticas vinculadas entre si.
+- Gerenciamento: tela para ver/editar/pausar/retomar/cancelar recorrências.
+- Notificações: lembrete antes do próximo lançamento; opção de confirmação automática ou manual.
+
+Novas Telas e Componentes
+
+- Tela Gestão de Contas: lista de contas; adicionar; editar; definir padrão; remover com confirmação.
+- Tela Login: Google, Apple, Email; recuperar senha; continuar como convidado.
+- Tela Membros do Ambiente: lista de membros; convidar; alterar papéis; histórico de convites.
+- Tela Transação Detalhe: visualização completa; editar; histórico de alterações; indicação do autor.
+- Tela Recorrências: lista de recorrências ativas; editar; pausar; cancelar.
+- Tela Relatórios com Filtro Mensal: seletor mês/ano; gráficos; comparação; resumo textual.
+
+Modelo de Dados e Regras de Negócio
+
+Entidades principais
+- User: id, nome, email, authProvider, preferências (tema, acessibilidade).
+- Account: id, ownerId/organizationId, nome, tipo, saldo inicial, moeda, padrão.
+- Transaction: id, amount, date, description, category, accountId, createdByUserId, createdAt, updatedAt, recurrenceId (nullable).
+- Recurrence: id, transactionTemplate, frequency, interval, installments, endDate, nextRunDate, status.
+- Organization/Environment: id, name, members[] (userId, role).
+- AuditLog: id, entityType, entityId, action, userId, timestamp, diff.
+
+Regras
+- Transações vinculadas a contas; remoção de conta exige migração ou exclusão de transações com confirmação.
+- Edição registra versão anterior no AuditLog.
+- Parcelamento cria N transações vinculadas à mesma recurrenceId e referência entre parcelas.
+
+Critérios de Aceitação e Casos de Teste
+
+Gestão de Contas
+- Ao criar lançamento, sistema solicita conta; seleção altera saldo da conta correta.
+- Usuário consegue adicionar/editar/remover conta; remoção exige confirmação e tratamento de transações vinculadas.
+
+Login
+- Login via Google/Apple autentica e cria usuário; login por e‑mail funciona com recuperação.
+- Sessão expira e refresh token renova sessão.
+
+Multiusuário
+- Convite cria membro com papel; membro acessa ambiente após aceitar.
+- Lançamentos mostram autor no chat; logs registram ações.
+
+Edição de Lançamentos
+- Editar valor/conta/descrição/data atualiza relatórios e gera AuditLog.
+- Undo funciona no tempo definido.
+
+Relatórios Mensais
+- Filtro por mês retorna transações e gráficos corretos; comparação entre meses mostra diferenças.
+
+Recorrência
+- Criar recorrência gera lançamentos futuros conforme configuração; parcelamento cria parcelas vinculadas.
+- Pausar/retomar altera nextRunDate e comportamento de geração.
+
+Impactos Técnicos e UX
+
+Backend
+- Endpoints para contas, membros, recorrências, edição e audit logs.
+- Jobs agendados para processar recorrências e parcelamentos.
+- Consistência transacional ao mover valores entre contas.
+
+Frontend
+- Componentes para seleção rápida de conta no chat; modais de edição; telas de gestão.
+- Suporte a temas e acessibilidade em novos componentes.
+
+Segurança e Privacidade
+- OAuth 2.0 para provedores sociais; criptografia de dados sensíveis; consentimento explícito para compartilhamento de ambiente.
+- Controle de acesso por papéis e logs de auditoria.
+
+Performance
+- Otimizar consultas de relatórios por período; indexar por date e accountId.
+- Limitar geração massiva de transações em caso de recorrências mal configuradas.
+
+Próximos Passos e Prioridades para MVP
+
+Prioridade alta
+1. Seleção de conta após lançamento e gestão básica de contas.
+2. Tela de login com Google/Apple/email.
+3. Edição de lançamentos com AuditLog.
+4. Relatórios com filtro mensal.
+
+Prioridade média
+1. Recorrência básica mensal e parcelamento simples.
+2. Indicação do autor no chat e log de atividades.
+
+Prioridade baixa
+1. Gestão avançada de papéis e permissões granulares.
+2. Exportação avançada e integrações bancárias.
+
+Riscos e Mitigações
+- Risco: complexidade de recorrências e parcelamentos. Mitigação: começar com recorrência mensal e parcelamento simples; evoluir conforme uso.
+- Risco: conflitos de edição em ambiente compartilhado. Mitigação: bloquear edição concorrente e mostrar aviso de versão.
+- Risco: segurança em ambientes compartilhados. Mitigação: papéis claros, consentimento e logs auditáveis.
+
+Resumo final
+Este PRD complementar adiciona gestão de contas, autenticação social, multiusuário colaborativo, edição de lançamentos, filtros mensais em relatórios e recorrência de lançamentos, com critérios de aceitação, impactos técnicos e prioridades para implementação no MVP. Pode ser convertido em histórias de usuário com critérios de aceitação detalhados e tarefas técnicas por sprint.
+
+```
 
 ## 🎯 Desafio
 
